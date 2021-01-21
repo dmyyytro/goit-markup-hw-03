@@ -18,7 +18,21 @@ body {
   font-family: var(--text-font);
 }
 
-/*===LOGO===*/
+/*---Подчеркивания ссылок, маркировка списков, шрифт аддресса---*/
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+/*---End Подчеркивания ссылок, маркировка списков, шрифт аддресса---*/
+
+/*---Logo---*/
 .logo {
   font-family: var(--title-font);
   font-weight: 700;
@@ -45,9 +59,9 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-/*===END LOGO===*/
+/*---End Logo---*/
 
-/*===backgrounds===*/
+/*---Backgrounds---*/
 .hero-index {
   background: var(--background-index-hero-color);
 }
@@ -59,9 +73,9 @@ body {
 .team {
   background: var(--background-team-color);
 }
-/*===END backgrounds===*/
+/*---End backgrounds---*/
 
-/*===Style the active navigation list link===*/
+/*---Style navigation list link---*/
 .current {
   font-weight: 500;
   font-size: 14px;
@@ -81,6 +95,28 @@ body {
 .navigation-list-link:focus {
   color: #2196f3;
 }
+/*---End Style navigation list link---*/
+
+/*---Index.html Advantages---*/
+.advantages-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--titles-color);
+}
+
+.advantages-details {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+/*---End Index.html Advantages---*/
 
 .contacts-list-link {
   font-weight: 500;
@@ -95,7 +131,7 @@ body {
   color: #2196f3;
 }
 
-/*===BUTTONS===*/
+/*---Buttons---*/
 .modal-btn {
   font-weight: 500;
   font-size: 16px;
@@ -119,8 +155,9 @@ body {
   color: var(--index-hero-title-color);
   background-color: var(--index-hero-btn-background-color);
 }
-/*===END BUTTONS===*/
+/*---End Buttons---*/
 
+/*---Footer---*/
 .footer-adress {
   font-weight: 400;
   font-size: 14px;
@@ -137,7 +174,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-address-tel-mail-color);
 }
+/*---End Footer---*/
 
+/*---Hero title(index.html)---*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -147,28 +186,9 @@ body {
   text-transform: uppercase;
   color: var(--index-hero-title-color);
 }
+/*---End Hero title(index.html)---*/
 
-/*===INDEX.HTML ADVANTAGES*/
-.advantages-name {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--titles-color);
-}
-
-.advantages-details {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-
-  color: var(--text-color);
-}
-/*===END INDEX.HTML ADVANTAGES===*/
-
+/*---Services title(index.html)---*/
 .services-title {
   font-weight: 700;
   font-size: 36px;
@@ -177,7 +197,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--titles-color);
 }
+/*---End Services title(index.html)---*/
 
+/*---Team---*/
 .team-name {
   font-weight: 700;
   font-size: 36px;
@@ -202,7 +224,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+/*---End Team---*/
 
+/*---Project---*/
 .project-name {
   font-weight: 700;
   font-size: 18px;
@@ -217,16 +241,4 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
-
-address {
-  font-style: normal;
 }
