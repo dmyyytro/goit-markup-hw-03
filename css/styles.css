@@ -30,6 +30,26 @@ address {
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 /*====== BACKGROUND ======*/
 .hero-index {
   background: var(--background-index-hero-color);
@@ -72,6 +92,47 @@ address {
   color: #000000;
 }
 /*====== END LOGO ======*/
+
+/*====== HEADER ======*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.studio {
+  margin-right: 90px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contacts-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+/*====== END HEADER ======*/
 
 /*====== NAVIGATION LIST LINK ======*/
 .current {
@@ -118,11 +179,13 @@ address {
 }
 
 .modal-btn-hero {
-  font-style: normal;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
   color: var(--main-lite);
   background-color: var(--index-hero-btn-background-color);
 }
@@ -214,3 +277,10 @@ address {
   color: var(--text-color);
 }
 /*====== END PROJECT ======*/
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
