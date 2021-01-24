@@ -162,6 +162,18 @@ img {
   color: var(--text-color);
 }
 
+.filters-list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 94px;
+  justify-content: center;
+}
+
+.filters-list-item:not(:last-child) {
+  padding-right: 8px;
+}
+
 /*====== BUTTONS ======*/
 .modal-btn {
   min-width: 145px;
@@ -196,10 +208,17 @@ img {
 /*====== END BUTTONS ======*/
 
 /**====== FOOTER ======*/
-.footer-adress {
+.footer {
+  height: 252px;
+}
+.footer-adress-link {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-lite);
+}
+
+.footer-adress-list-link:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .footer-adress-mail,
@@ -208,9 +227,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--footer-address-tel-mail-color);
 }
+
+.logo-footer {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
 /*====== END FOOTER ======*/
 
 /*====== HERO ======*/
+
 .hero-index {
   margin-left: auto;
   margin-right: auto;
@@ -242,6 +268,18 @@ img {
 
   cursor: pointer;
 }
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 370;
+  padding-bottom: 94px;
+}
+.project-list-item:not(:last-child) {
+  padding-right: 30px 32px;
+}
+
 /*====== END HERO ======*/
 
 /*====== ADVANTAGES(index.html) ======*/
@@ -313,7 +351,16 @@ img {
 }
 
 .team-list-member:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.team-list-member {
+  width: 270px;
+  height: 368px;
+  background-color: var(--background-team-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -329,6 +376,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--titles-color);
   padding-top: 30px;
+  text-align: center;
 }
 
 .team-member-role {
@@ -336,6 +384,8 @@ img {
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding-top: 10px;
+  text-align: center;
 }
 /*====== END TEAM ======*/
 
