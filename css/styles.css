@@ -213,6 +213,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-size: auto;
+  margin-top: 0;
 }
 .footer-adress-link {
   line-height: 1.714;
