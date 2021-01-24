@@ -210,6 +210,8 @@ img {
 /**====== FOOTER ======*/
 .footer {
   height: 252px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-adress-link {
   line-height: 1.714;
@@ -345,8 +347,12 @@ img {
   color: var(--titles-color);
 }
 
+.our-team {
+  padding-right: 30px 32px;
+}
+
 .team-name {
-  padding-top: 94px;
+  margin-top: 0;
   padding-bottom: 50px;
 }
 
