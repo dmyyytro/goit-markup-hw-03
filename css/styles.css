@@ -97,6 +97,7 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -168,14 +169,13 @@ img {
 
 .filters-list {
   display: flex;
-  flex-direction: row;
   margin-bottom: 50px;
-  margin-top: 94px;
+  padding-top: 94px;
   justify-content: center;
 }
 
 .filters-list-item:not(:last-child) {
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 /*====== BUTTONS ======*/
@@ -213,11 +213,8 @@ img {
 
 /**====== FOOTER ======*/
 .footer {
-  height: 252px;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: auto;
-  margin-top: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-adress-link {
   line-height: 1.714;
@@ -244,6 +241,10 @@ img {
 /*====== END FOOTER ======*/
 
 /*====== HERO ======*/
+
+.hero {
+  padding-bottom: 94px;
+}
 
 .hero-index {
   margin-left: auto;
@@ -277,13 +278,16 @@ img {
 
 .projects-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 370;
-  padding-bottom: 94px;
 }
-.project-list-item:not(:last-child) {
-  padding-right: 30px 32px;
+
+.project-list-item:not(:nth-child(3n)) {
+  padding-right: 30px;
+}
+
+.project-info {
+  padding: 20px 24px;
 }
 
 /*====== END HERO ======*/
@@ -425,6 +429,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-top: 4;
 }
 /*====== END PROJECT ======*/
 
