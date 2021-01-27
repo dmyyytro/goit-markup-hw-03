@@ -284,10 +284,14 @@ img {
 
 .project-list-item:not(:nth-child(3n)) {
   padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .project-info {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /*====== END HERO ======*/
